@@ -7,13 +7,13 @@
 
 OpenWrt-23.05 (PassWall & OpenClash)，基于ImmortalWrt OpenWrt-23.05(每日更新)。
 
-Github: <https://github.com/zzsrv/OpenWrt-Docker>
+Github: <https://github.com/tyy474/OpenWrt-Docker>
 
-DockerHub: <https://hub.docker.com/r/zzsrv/openwrt>
+DockerHub: <https://hub.docker.com/r/tyy474/openwrt>
 
 ## 支持设备及镜像版本
 
-本项目基于 [ImmortalWrt OpenWrt-23.05](https://github.com/immortalwrt/immortalwrt/tree/openwrt-23.05)，每日上午 8 点编译 OpenWrt 镜像，镜像构建完成后将同时推送到 [DockerHub](https://hub.docker.com/r/zzsrv/openwrt) 和 阿里云镜像仓库 (杭州) 。
+本项目基于 [ImmortalWrt OpenWrt-23.05](https://github.com/immortalwrt/immortalwrt/tree/openwrt-23.05)，每日上午 8 点编译 OpenWrt 镜像，镜像构建完成后将同时推送到 [DockerHub](https://hub.docker.com/r/tyy474/openwrt) 和 阿里云镜像仓库 (广州) 。
 
 对于国内用户，为提高镜像拉取体验，可以考虑拉取存放于阿里云镜像仓库的镜像，镜像名称及标签如下表所示:
 
@@ -21,9 +21,9 @@ DockerHub: <https://hub.docker.com/r/zzsrv/openwrt>
 
 |  支持设备/平台  |        DockerHub        |                  阿里云镜像仓库 (杭州)                  |
 | :-------------: | :---------------------: | :-----------------------------------------------------: |
-|  x86_64/amd64   | zzsrv/openwrt:latest | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:latest |
-|  x86_64/amd64   | zzsrv/openwrt:x86_64 | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:x86_64 |
-|  x86_64/amd64   | zzsrv/openwrt:amd64 | registry.cn-hangzhou.aliyuncs.com/zzsrv/openwrt:amd64 |
+|  x86_64/amd64   | tyy474/openwrt:latest | registry.cn-guangzhou.aliyuncs.com/tyy474/openwrt:latest |
+|  x86_64/amd64   | tyy474/openwrt:x86_64 | registry.cn-guangzhou.aliyuncs.com/tyy474/openwrt:x86_64 |
+|  x86_64/amd64   | tyy474/openwrt:amd64 | registry.cn-guangzhou.aliyuncs.com/tyy474/openwrt:amd64 |
 
 ## 镜像使用方法
 
